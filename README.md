@@ -15,7 +15,7 @@ TIL(매일공부기록)
     - [조회](#%EC%A1%B0%ED%9A%8C)
 
 # 네트워크
-- [네트워크 작동원리](#%EC%9E%90%EB%B0%94-orm-%ED%91%9C%EC%A4%80-jpa-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D)
+- [네트워크 작동원리](https://github.com/skysamer/TIL/blob/main/Network/Principle)
   - [프로토콜 스택, LAN 어댑터](https://github.com/skysamer/TIL/blob/main/Network/Principle/webBrowser.md)
   - [허브, 스위치, 라우터](#%EC%83%81%EC%86%8D)
   - [엑세스 회선, 프로바이더](#jpa%EC%99%80-%EC%83%81%EC%86%8D)
