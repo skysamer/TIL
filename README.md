@@ -52,7 +52,7 @@
     - [조회](#%EC%A1%B0%ED%9A%8C)
 
 # 데이터베이스
-- [네트워크 작동원리](https://github.com/skysamer/TIL/blob/main/Network/Principle)
+- [](https://github.com/skysamer/TIL/blob/main/Network/Principle)
   - [프로토콜 스택, LAN 어댑터](https://github.com/skysamer/TIL/blob/main/Network/Principle/webBrowser.md)
   - [허브, 스위치, 라우터](#%EC%83%81%EC%86%8D)
   - [엑세스 회선, 프로바이더](#jpa%EC%99%80-%EC%83%81%EC%86%8D)
