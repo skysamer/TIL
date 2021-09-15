@@ -5,7 +5,7 @@
 
 
 # Spring 
-- [자바 ORM 표준 JPA 프로그래밍](#%EC%9E%90%EB%B0%94-orm-%ED%91%9C%EC%A4%80-jpa-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D)
+- [Spring IoC](#%EC%9E%90%EB%B0%94-orm-%ED%91%9C%EC%A4%80-jpa-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D)
 - [목차](#%EB%AA%A9%EC%B0%A8)
 - [1장](#1%EC%9E%A5)
   - [패러다임의 불일치](#%ED%8C%A8%EB%9F%AC%EB%8B%A4%EC%9E%84%EC%9D%98-%EB%B6%88%EC%9D%BC%EC%B9%98)
