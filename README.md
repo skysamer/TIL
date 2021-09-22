@@ -7,7 +7,7 @@
 # Spring 
 - [Spring IoC](https://github.com/skysamer/TIL/blob/main/Spring/IoC.md)
 - [AOP](https://github.com/skysamer/TIL/blob/main/Spring/AOP.md)
-- [1장](#1%EC%9E%A5)
+- [component-scan](#1%EC%9E%A5)
   - [패러다임의 불일치](#%ED%8C%A8%EB%9F%AC%EB%8B%A4%EC%9E%84%EC%9D%98-%EB%B6%88%EC%9D%BC%EC%B9%98)
   - [상속](#%EC%83%81%EC%86%8D)
   - [JPA와 상속](#jpa%EC%99%80-%EC%83%81%EC%86%8D)
