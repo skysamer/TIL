@@ -53,7 +53,7 @@
 
 # 데이터베이스
 - [Oracle](https://github.com/skysamer/TIL/blob/main/Network/Principle)
-  - [프로토콜 스택, LAN 어댑터](https://github.com/skysamer/TIL/blob/main/Network/Principle/webBrowser.md)
+  - [프로시저, 스케줄러](https://github.com/skysamer/TIL/blob/main/Network/Principle/webBrowser.md)
   - [허브, 스위치, 라우터](#%EC%83%81%EC%86%8D)
   - [엑세스 회선, 프로바이더](#jpa%EC%99%80-%EC%83%81%EC%86%8D)
   - [방화벽, 캐시 서버](#%EC%97%B0%EA%B4%80%EA%B4%80%EA%B3%84)
