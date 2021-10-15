@@ -30,6 +30,7 @@ PL/SQL의 한 종류이다. 자주 사용하는 SQL구문을 프로시저로 등
 함수의 경우 반환값이 존재하지만 프로시저는 반환값이 존재하지 않는다.
 
 **사용 예**
+
 ```sql
 CREATE OR REPLACE PROCEDURE STATISTICS_TRAFFIC_PROC
 (
@@ -37,7 +38,7 @@ CREATE OR REPLACE PROCEDURE STATISTICS_TRAFFIC_PROC
    변수명 IN 타입
 )
 IS
-P_UNIVERSITY VARCHAR2(100)  := '서울대학교';
+변수명 타입  := '변수값';
 
 BEGIN
 
@@ -45,5 +46,21 @@ INSERT INTO tbl_statistics_traffic (date_key, R_NAME, section, datetime, TYPE_ON
 VALUES (20201001, 경부선, 건천ic-기흥ic, 12343, 234, 23, 12456);
 COMMIT;
 
-END EX_PROC;
-```　
+END tbl_statistics_traffic;
+
+```
+
+
+프로시저를 실행할 때는 EXEC [프로시저명]을 입력하면 된다.
+
+```sql
+
+EXEC STATISTICS_TRAFFIC_PROC;
+
+```
+
+## 💡 스케줄러
+스케줄러는 날짜 또는 시간에 맞춰 어떤 작업을 수행할 지 설정하는 기능이다.
+
+스케줄러를 등록하려면 우선 스케줄러로 실행할 프로시저를 등록해야 한다.
+
