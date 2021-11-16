@@ -10,7 +10,7 @@
 - [component-scan](https://github.com/skysamer/TIL/blob/main/Spring/component-scan.md)
 
 # 네트워크
-- [REST API](https://github.com/skysamer/TIL/blob/main/Network/Principle)
+- [REST API](https://github.com/skysamer/TIL/blob/main/Network/rest_api.md)
 - [네트워크 작동원리](https://github.com/skysamer/TIL/blob/main/Network/Principle)
   - [웹 브라우저](https://github.com/skysamer/TIL/blob/main/Network/Principle/webBrowser.md)
   - [프로토콜 스택, LAN 어댑터](https://github.com/skysamer/TIL/blob/main/Network/Principle/webBrowser.md)
