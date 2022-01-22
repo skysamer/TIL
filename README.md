@@ -35,4 +35,4 @@
 - [기본 명령어](https://github.com/skysamer/TIL/blob/main/Network/Principle)
 
 # JAVA
-- [가변객체 / 불변객체]()
+- [가변객체 / 불변객체](https://github.com/skysamer/TIL/blob/main/JAVA/Mutable%20vs%20Immutable.md)
