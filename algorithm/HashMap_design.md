@@ -8,14 +8,12 @@ key와 매핑되는 value를 저장하고 있는 bucket객체를 생성한다.
 해시 충돌이 발생할 경우, 개별체이닝 방식을 구현하여 해결했다.
 
 ~~~java
-package smlab;
-
 public class MyHashMap {
 	
 	static final int BUCKET_CAPACITY=100; /*100개 씩 bucket별로 관리*/
 	static Bucket[] buckets;
 	
-	/*value 저장소 : key와 매핑되는 value값들을 저장하고 있는 저장소다.*/
+	/*node 객체들을 더미로 보관하고 있는 저장소*/
 	class Bucket{
 		Node node;
 		
@@ -26,7 +24,7 @@ public class MyHashMap {
 	
 	/**
 	 *key, value쌍을 저장하고 있는 객체
-	 *next변수값을 통해 다른 node와 연결 */
+	 *각 node 객체들은 next변수값을 통해 다른 node와 연결 */
 	class Node{
 		int key;
 		int value;
@@ -98,11 +96,16 @@ public class MyHashMap {
     }
     
     public void remove(int key) {
-        int index=key/BUCKET_CAPACITY;
+        int index=key / BUCKET_CAPACITY;
         
+        /*인덱스가 존재하지 않는다면 삭제하지않고 리턴*/
         if(buckets[index]==null){
         	return;
         }
+        
+        /**인덱스가 존재할 경우
+         * 이전 노드를 설정하고
+         * 이전노드가 null이 아니면 이전노드 까지 초기화*/
         else{
         	Node node=buckets[index].node;
         	Node prev=null;
