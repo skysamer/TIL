@@ -24,7 +24,8 @@
 # Algorithm & DataStructure
 - [해시맵 디자인](https://github.com/skysamer/TIL/blob/main/algorithm/HashMap_design.md)
 - [중복없는 가장 긴 부분 문자열](https://github.com/skysamer/TIL/blob/main/algorithm/Longest_substring_without_reapting_character.md)
-- [상위 K 빈도 요소]()
+- [상위 K 빈도 요소](https://github.com/skysamer/TIL/blob/main/algorithm/top_k_frequent_element.md)
+- [섬의 개수](https://github.com/skysamer/TIL/blob/main/algorithm/number_of_island.md)
 
 # 데이터베이스
 - [Oracle](https://github.com/skysamer/TIL/blob/main/Network/Principle)
