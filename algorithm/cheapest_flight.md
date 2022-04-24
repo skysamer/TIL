@@ -9,7 +9,7 @@ Output: 500
 시작점 src 노드 0에서 도착점 dst 노드 2까지 최저가는 0->1->2 경로인 200이지만, 경유지가 하나도 없어야 하므로(k=0)
 이 조건을 만족시키는 최저가는 0->2인 500이다.
 
-우선순위큐 객체를 활용하여 문제를 해결했다.
+기존의 다익스트라 알고리즘 대신에, 벨만-포드 알고리즘을 활용했다.
 ~~~java
 public class Solution {
     public int findCheapestPrice(int n, int[][] flights, int src, int dst, int k) {
@@ -27,11 +27,14 @@ public class Solution {
                 int next= flight[1];
                 int price=flight[2];
 
+                // 경유지가 0일 경우, 출발지-목적지 직항 가격만 업데이트
                 if(prices[start]==Integer.MAX_VALUE){
                     continue;
                 }
+                // 도착지에 이동하기까지의 가격 책정
                 temp[next]=Math.min(temp[next], prices[start]+price);
             }
+            // 경유지가 0인 경우부터 항공권을 순회하여 prices를 업데이트
             prices=temp;
         }
         return prices[dst] == Integer.MAX_VALUE ? -1 : prices[dst];
