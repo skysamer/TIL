@@ -19,6 +19,7 @@
     - [조회](#%EC%A1%B0%ED%9A%8C)
 
 # 운영체제
+- [code, data, heap, stack](https://github.com/skysamer/TIL/blob/main/os/memory-structure.md)
 
 
 # Algorithm & DataStructure
