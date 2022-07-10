@@ -46,3 +46,4 @@
 
 # JAVA
 - [가변객체 / 불변객체](https://github.com/skysamer/TIL/blob/main/JAVA/Mutable%20vs%20Immutable.md)
+- [HashMap vs HashTable](https://github.com/skysamer/TIL/blob/main/JAVA/hashmap-hashtable.md)
