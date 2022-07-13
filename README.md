@@ -9,6 +9,7 @@
 - [REST API](https://github.com/skysamer/TIL/blob/main/Network/rest_api.md)
 - [브라우저 주소창에 URL을 입력하면 발생하는 일](https://github.com/skysamer/TIL/blob/main/Network/browser_url.md)
 - [CORS](https://github.com/skysamer/TIL/blob/main/Network/cors.md)
+- [HTTP](https://github.com/skysamer/TIL/blob/main/Network/http.md)
 - [네트워크 작동원리](https://github.com/skysamer/TIL/blob/main/Network/Principle)
   - [웹 브라우저](https://github.com/skysamer/TIL/blob/main/Network/Principle/webBrowser.md)
   - [프로토콜 스택, LAN 어댑터](https://github.com/skysamer/TIL/blob/main/Network/Principle/webBrowser.md)
