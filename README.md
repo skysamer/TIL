@@ -39,6 +39,7 @@
 - [Oracle](https://github.com/skysamer/TIL/blob/main/Network/Principle)
   - [프로시저, 스케줄러](https://github.com/skysamer/TIL/blob/main/Database/processor_scheduler.md)
 - [트랜잭션](https://github.com/skysamer/TIL/blob/main/Database/transactional.md)
+- [SQL 종류](https://github.com/skysamer/TIL/blob/main/Database/sql.md)
   
 
 # Linux
