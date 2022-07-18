@@ -20,6 +20,7 @@
 
 # 운영체제
 - [code, data, heap, stack](https://github.com/skysamer/TIL/blob/main/os/memory-structure.md)
+- [컴파일러와 인터프리터](https://github.com/skysamer/TIL/blob/main/os/compile.md)
 
 
 # Algorithm & DataStructure
