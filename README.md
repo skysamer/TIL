@@ -11,6 +11,7 @@
 - [CORS](https://github.com/skysamer/TIL/blob/main/Network/cors.md)
 - [HTTP](https://github.com/skysamer/TIL/blob/main/Network/http.md)
 - [TCP, UDP](https://github.com/skysamer/TIL/blob/main/Network/tcp-udp.md)
+- [회선교환방식, 패킷교환방식](https://github.com/skysamer/TIL/blob/main/Network/packet-circuit.md)
 - [네트워크 작동원리](https://github.com/skysamer/TIL/blob/main/Network/Principle)
   - [웹 브라우저](https://github.com/skysamer/TIL/blob/main/Network/Principle/webBrowser.md)
   - [프로토콜 스택, LAN 어댑터](https://github.com/skysamer/TIL/blob/main/Network/Principle/webBrowser.md)
