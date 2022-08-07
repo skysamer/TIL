@@ -12,6 +12,7 @@
 - [HTTP](https://github.com/skysamer/TIL/blob/main/Network/http.md)
 - [TCP, UDP](https://github.com/skysamer/TIL/blob/main/Network/tcp-udp.md)
 - [회선교환방식, 패킷교환방식](https://github.com/skysamer/TIL/blob/main/Network/packet-circuit.md)
+- [스위치와 라우터](https://github.com/skysamer/TIL/blob/main/Network/router-switch.md)
 - [네트워크 작동원리](https://github.com/skysamer/TIL/blob/main/Network/Principle)
   - [웹 브라우저](https://github.com/skysamer/TIL/blob/main/Network/Principle/webBrowser.md)
   - [프로토콜 스택, LAN 어댑터](https://github.com/skysamer/TIL/blob/main/Network/Principle/webBrowser.md)
